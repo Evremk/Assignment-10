@@ -5,7 +5,7 @@ public class Question31 {
 	public static void main(String[] args) {
 		
 		
-	System.out.println(isPalindrome("Nurses runs"));	
+	System.out.println(isPalindrome("Nurses run"));	
 		
 	}
 
