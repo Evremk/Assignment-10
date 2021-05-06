@@ -5,7 +5,7 @@ public class Question21 {
 	public static void main(String[] args) {
 		//
 		
-		checkPrefix("abXYabc",1);
+		checkPrefix("aaabdw",1);
 		checkPrefix("abXYabc",2);
 		checkPrefix("abXYabc",3);
 		
@@ -15,6 +15,11 @@ public class Question21 {
 	}
 
 	public static void checkPrefix(String str, int nChars) {
+		
+		if(nChars<1||nChars>str.length()||str.isEmpty()||str.isBlank()) {
+			System.out.println("Not valid input");
+		}else {
+		
 		boolean flag= false;
 		
  		String Prefix=str.substring(0, nChars);
@@ -24,13 +29,13 @@ public class Question21 {
 				
 				flag=true;
 				System.out.println(flag);
-				System.out.println(Prefix+" appears twice");
+				System.out.println(Prefix+" appears minimum twice");
 					
 			}else {
 			System.out.println(flag);
 			System.out.println(Prefix+ " appears only once");
 			
-		}}
+		}}}
 		
 		
 		
