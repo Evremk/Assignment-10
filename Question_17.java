@@ -3,6 +3,7 @@ package assignment_10;
 public class Question_17 {
 
 	public static void main(String[] args) {
+	//MENTORS SOLUTION
 		
 		printAlphabet('A','Z');	
 	
