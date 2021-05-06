@@ -5,7 +5,7 @@ public class Question23 {
 	public static void main(String[] args) {
 		
 		
-		String word = "breadbutterbread";
+		String word = "breadabread";
 		int firstBread=word.indexOf("bread");
 		
 		if((word.contains("bread"))   && (word.substring(firstBread+6).contains("bread")) ) {
